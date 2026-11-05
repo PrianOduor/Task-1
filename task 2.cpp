@@ -36,13 +36,13 @@ else
 {
     cout<<"Grade: F"<<endl;
 }
- cout<<"Enter student grade;";
+ cin>>grade;
 
 
 display:
 cout<<"Name: "<<name<<endl;
 cout<<"Marks: "<<marks<<endl;
-cout<<"Grade: "<<grade<<endl;
+cout<<"grade: "<<grade<<endl;
 
 return 0;
 }
